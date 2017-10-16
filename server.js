@@ -18,7 +18,7 @@ app.get('/wordcount', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'wordcount.html'));
 });
 app.get('/wordcount.php', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'wordcount.php'));
+  res.sendFile(path.join(__dirname, 'wordcount.php'));
 });
 var counter = 0;
 app.get('/counter', function (req, res) {
