@@ -15,7 +15,7 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('/wordcount', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'wordcount.html'));
+  res.sendFile(path.join(__dirname, 'ui', '/wordcount.html'));
 });
 var counter = 0;
 app.get('/counter', function (req, res) {
